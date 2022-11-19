@@ -28,16 +28,8 @@
       "plugin": "upload",
       "required": false
     },
-    "categories": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+    "slug": {
+      "type": "uid"
     }
   }
 }
